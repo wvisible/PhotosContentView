@@ -1,0 +1,3 @@
+rootProject.name='PhotosContentView'
+include ':app'
+include ':photoscontentview'

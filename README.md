@@ -32,7 +32,8 @@ photosContentView.setAdapter(object : PhotosContentViewAdapter<String>() {
 ```
 然后设置数据源：
 ```
-photosContentView.setImageData(bean.photoList)
+private val imageList = mutableListOf()
+photosContentView.setImageData(imageList)
 ```
 #### 项目功能
 - 支持设置单张大图尺寸
